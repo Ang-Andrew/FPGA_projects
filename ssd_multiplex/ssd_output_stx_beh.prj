@@ -1,0 +1,2 @@
+vhdl isim_temp "clk_gen.vhd"
+vhdl isim_temp "ssd_output.vhd"

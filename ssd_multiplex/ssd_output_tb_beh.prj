@@ -1,0 +1,3 @@
+vhdl work "clk_gen.vhd"
+vhdl work "ssd_output.vhd"
+vhdl work "ssd_output_tb.vhd"

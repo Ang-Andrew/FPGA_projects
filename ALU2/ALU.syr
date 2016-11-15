@@ -1,0 +1,526 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> Reading design: ALU.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "ALU.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "ALU"
+Output Format                      : NGC
+Target Device                      : xc3s1000-4-ft256
+
+---- Source Options
+Top Module Name                    : ALU
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Andrew/Documents/ISE Projects/ALU2/FullAdder.vhd" in Library work.
+Architecture behavioral of Entity fulladder is up to date.
+Compiling vhdl file "C:/Users/Andrew/Documents/ISE Projects/ALU2/Adder4Bit.vhd" in Library work.
+Architecture behavioral of Entity adder4bit is up to date.
+Compiling vhdl file "C:/Users/Andrew/Documents/ISE Projects/ALU2/ssd_decoder.vhd" in Library work.
+Architecture behavioral of Entity ssd_decoder is up to date.
+Compiling vhdl file "C:/Users/Andrew/Documents/ISE Projects/ALU2/clk_gen.vhd" in Library work.
+Architecture behavioral of Entity clk_gen is up to date.
+Compiling vhdl file "C:/Users/Andrew/Documents/ISE Projects/ALU2/SSD_controller.vhd" in Library work.
+Entity <ssd_controller> compiled.
+Entity <ssd_controller> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/Users/Andrew/Documents/ISE Projects/ALU2/ALU.vhd" in Library work.
+Architecture behavioral of Entity alu is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <ALU> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Adder4Bit> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ssd_decoder> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <clk_gen> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <SSD_controller> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <FullAdder> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ALU> in library <work> (Architecture <behavioral>).
+Entity <ALU> analyzed. Unit <ALU> generated.
+
+Analyzing Entity <Adder4Bit> in library <work> (Architecture <behavioral>).
+Entity <Adder4Bit> analyzed. Unit <Adder4Bit> generated.
+
+Analyzing Entity <FullAdder> in library <work> (Architecture <behavioral>).
+Entity <FullAdder> analyzed. Unit <FullAdder> generated.
+
+Analyzing Entity <ssd_decoder> in library <work> (Architecture <behavioral>).
+Entity <ssd_decoder> analyzed. Unit <ssd_decoder> generated.
+
+Analyzing Entity <clk_gen> in library <work> (Architecture <behavioral>).
+Entity <clk_gen> analyzed. Unit <clk_gen> generated.
+
+Analyzing Entity <SSD_controller> in library <work> (Architecture <behavioral>).
+Entity <SSD_controller> analyzed. Unit <SSD_controller> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <ssd_decoder>.
+    Related source file is "C:/Users/Andrew/Documents/ISE Projects/ALU2/ssd_decoder.vhd".
+    Found 16x7-bit ROM for signal <Seg_Out>.
+    Summary:
+	inferred   1 ROM(s).
+Unit <ssd_decoder> synthesized.
+
+
+Synthesizing Unit <clk_gen>.
+    Related source file is "C:/Users/Andrew/Documents/ISE Projects/ALU2/clk_gen.vhd".
+WARNING:Xst:653 - Signal <divide> is used but never assigned. This sourceless signal will be automatically connected to value 00000000000000001100001101010000.
+    Found 1-bit register for signal <Clk_mod>.
+    Found 32-bit adder for signal <$add0000>.
+    Found 32-bit comparator greatequal for signal <Clk_mod$cmp_ge0000> created at line 23.
+    Found 32-bit comparator less for signal <Clk_mod$cmp_lt0000> created at line 21.
+    Found 32-bit subtractor for signal <Clk_mod$sub0000> created at line 21.
+    Found 32-bit subtractor for signal <Clk_mod$sub0001> created at line 23.
+    Found 32-bit up counter for signal <counter>.
+    Found 32-bit comparator less for signal <counter$cmp_lt0000> created at line 23.
+    Found 32-bit adder for signal <mux0000$addsub0000>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+	inferred   4 Adder/Subtractor(s).
+	inferred   3 Comparator(s).
+Unit <clk_gen> synthesized.
+
+
+Synthesizing Unit <SSD_controller>.
+    Related source file is "C:/Users/Andrew/Documents/ISE Projects/ALU2/SSD_controller.vhd".
+    Found 4x4-bit ROM for signal <ssd_anode$mux0000>.
+    Found 4-bit register for signal <ssd_anode>.
+    Found 7-bit register for signal <ssd_seg_out>.
+    Found 2-bit up counter for signal <anode_count>.
+    Found 7-bit 4-to-1 multiplexer for signal <ssd_seg_out$mux0000>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   1 Counter(s).
+	inferred  11 D-type flip-flop(s).
+	inferred   7 Multiplexer(s).
+Unit <SSD_controller> synthesized.
+
+
+Synthesizing Unit <FullAdder>.
+    Related source file is "C:/Users/Andrew/Documents/ISE Projects/ALU2/FullAdder.vhd".
+    Found 1-bit xor2 for signal <S>.
+    Found 1-bit xor2 for signal <j>.
+Unit <FullAdder> synthesized.
+
+
+Synthesizing Unit <Adder4Bit>.
+    Related source file is "C:/Users/Andrew/Documents/ISE Projects/ALU2/Adder4Bit.vhd".
+Unit <Adder4Bit> synthesized.
+
+
+Synthesizing Unit <ALU>.
+    Related source file is "C:/Users/Andrew/Documents/ISE Projects/ALU2/ALU.vhd".
+Unit <ALU> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 5
+ 16x7-bit ROM                                          : 4
+ 4x4-bit ROM                                           : 1
+# Adders/Subtractors                                   : 4
+ 32-bit adder                                          : 2
+ 32-bit subtractor                                     : 2
+# Counters                                             : 2
+ 2-bit up counter                                      : 1
+ 32-bit up counter                                     : 1
+# Registers                                            : 3
+ 1-bit register                                        : 1
+ 4-bit register                                        : 1
+ 7-bit register                                        : 1
+# Comparators                                          : 3
+ 32-bit comparator greatequal                          : 1
+ 32-bit comparator less                                : 2
+# Multiplexers                                         : 1
+ 7-bit 4-to-1 multiplexer                              : 1
+# Xors                                                 : 8
+ 1-bit xor2                                            : 8
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <SSD_controller>.
+INFO:Xst:3034 - In order to maximize performance and save block RAM resources, the small ROM <Mrom_ssd_anode_mux0000> will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
+Unit <SSD_controller> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 5
+ 16x7-bit ROM                                          : 4
+ 4x4-bit ROM                                           : 1
+# Adders/Subtractors                                   : 2
+ 32-bit subtractor                                     : 2
+# Counters                                             : 2
+ 2-bit up counter                                      : 1
+ 32-bit up counter                                     : 1
+# Registers                                            : 12
+ Flip-Flops                                            : 12
+# Comparators                                          : 3
+ 32-bit comparator greatequal                          : 1
+ 32-bit comparator less                                : 2
+# Multiplexers                                         : 1
+ 7-bit 4-to-1 multiplexer                              : 1
+# Xors                                                 : 8
+ 1-bit xor2                                            : 8
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ALU> ...
+
+Optimizing unit <clk_gen> ...
+
+Optimizing unit <SSD_controller> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ALU, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 46
+ Flip-Flops                                            : 46
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : ALU.ngr
+Top Level Output File Name         : ALU
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 20
+
+Cell Usage :
+# BELS                             : 200
+#      GND                         : 1
+#      INV                         : 7
+#      LUT1                        : 33
+#      LUT2                        : 11
+#      LUT3                        : 20
+#      LUT4                        : 33
+#      MUXCY                       : 55
+#      MUXF5                       : 7
+#      VCC                         : 1
+#      XORCY                       : 32
+# FlipFlops/Latches                : 46
+#      FD                          : 9
+#      FDR                         : 34
+#      FDS                         : 3
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 19
+#      IBUF                        : 8
+#      OBUF                        : 11
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s1000ft256-4 
+
+ Number of Slices:                       54  out of   7680     0%  
+ Number of Slice Flip Flops:             46  out of  15360     0%  
+ Number of 4 input LUTs:                104  out of  15360     0%  
+ Number of IOs:                          20
+ Number of bonded IOBs:                  20  out of    173    11%  
+ Number of GCLKs:                         1  out of      8    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)              | Load  |
+-----------------------------------+------------------------------------+-------+
+clk                                | BUFGP                              | 33    |
+clk_gen1/Clk_mod                   | NONE(ssd_controller1/anode_count_1)| 13    |
+-----------------------------------+------------------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 8.606ns (Maximum Frequency: 116.197MHz)
+   Minimum input arrival time before clock: 10.037ns
+   Maximum output required time after clock: 7.165ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 8.606ns (frequency: 116.197MHz)
+  Total number of paths / destination ports: 2640 / 65
+-------------------------------------------------------------------------
+Delay:               8.606ns (Levels of Logic = 14)
+  Source:            clk_gen1/counter_0 (FF)
+  Destination:       clk_gen1/counter_31 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: clk_gen1/counter_0 to clk_gen1/counter_31
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              3   0.720   1.246  clk_gen1/counter_0 (clk_gen1/counter_0)
+     LUT3:I0->O            1   0.551   0.000  clk_gen1/Mcompar_Clk_mod_cmp_lt0000_lut<0> (clk_gen1/Mcompar_Clk_mod_cmp_lt0000_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  clk_gen1/Mcompar_Clk_mod_cmp_lt0000_cy<0> (clk_gen1/Mcompar_Clk_mod_cmp_lt0000_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  clk_gen1/Mcompar_Clk_mod_cmp_lt0000_cy<1> (clk_gen1/Mcompar_Clk_mod_cmp_lt0000_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  clk_gen1/Mcompar_Clk_mod_cmp_lt0000_cy<2> (clk_gen1/Mcompar_Clk_mod_cmp_lt0000_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  clk_gen1/Mcompar_Clk_mod_cmp_lt0000_cy<3> (clk_gen1/Mcompar_Clk_mod_cmp_lt0000_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  clk_gen1/Mcompar_Clk_mod_cmp_lt0000_cy<4> (clk_gen1/Mcompar_Clk_mod_cmp_lt0000_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  clk_gen1/Mcompar_Clk_mod_cmp_lt0000_cy<5> (clk_gen1/Mcompar_Clk_mod_cmp_lt0000_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  clk_gen1/Mcompar_Clk_mod_cmp_lt0000_cy<6> (clk_gen1/Mcompar_Clk_mod_cmp_lt0000_cy<6>)
+     MUXCY:CI->O           1   0.064   0.000  clk_gen1/Mcompar_Clk_mod_cmp_lt0000_cy<7> (clk_gen1/Mcompar_Clk_mod_cmp_lt0000_cy<7>)
+     MUXCY:CI->O           1   0.064   0.000  clk_gen1/Mcompar_Clk_mod_cmp_lt0000_cy<8> (clk_gen1/Mcompar_Clk_mod_cmp_lt0000_cy<8>)
+     MUXCY:CI->O           1   0.064   0.000  clk_gen1/Mcompar_Clk_mod_cmp_lt0000_cy<9> (clk_gen1/Mcompar_Clk_mod_cmp_lt0000_cy<9>)
+     MUXCY:CI->O           1   0.064   0.000  clk_gen1/Mcompar_Clk_mod_cmp_lt0000_cy<10> (clk_gen1/Mcompar_Clk_mod_cmp_lt0000_cy<10>)
+     MUXCY:CI->O           2   0.303   1.216  clk_gen1/Mcompar_Clk_mod_cmp_lt0000_cy<11> (clk_gen1/Mcompar_Clk_mod_cmp_lt0000_cy<11>)
+     LUT2:I0->O           32   0.551   1.853  clk_gen1/counter_and00001 (clk_gen1/counter_and0000)
+     FDR:R                     1.026          clk_gen1/counter_0
+    ----------------------------------------
+    Total                      8.606ns (4.291ns logic, 4.315ns route)
+                                       (49.9% logic, 50.1% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk_gen1/Clk_mod'
+  Clock period: 3.820ns (frequency: 261.780MHz)
+  Total number of paths / destination ports: 32 / 16
+-------------------------------------------------------------------------
+Delay:               3.820ns (Levels of Logic = 1)
+  Source:            ssd_controller1/anode_count_0 (FF)
+  Destination:       ssd_controller1/ssd_anode_2 (FF)
+  Source Clock:      clk_gen1/Clk_mod rising
+  Destination Clock: clk_gen1/Clk_mod rising
+
+  Data Path: ssd_controller1/anode_count_0 to ssd_controller1/ssd_anode_2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q             20   0.720   1.545  ssd_controller1/anode_count_0 (ssd_controller1/anode_count_0)
+     INV:I->O              1   0.551   0.801  ssd_controller1/Mrom_ssd_anode_mux0000211_INV_0 (ssd_controller1/Mrom_ssd_anode_mux000021)
+     FDS:D                     0.203          ssd_controller1/ssd_anode_2
+    ----------------------------------------
+    Total                      3.820ns (1.474ns logic, 2.346ns route)
+                                       (38.6% logic, 61.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk_gen1/Clk_mod'
+  Total number of paths / destination ports: 228 / 7
+-------------------------------------------------------------------------
+Offset:              10.037ns (Levels of Logic = 7)
+  Source:            inputX<1> (PAD)
+  Destination:       ssd_controller1/ssd_seg_out_5 (FF)
+  Destination Clock: clk_gen1/Clk_mod rising
+
+  Data Path: inputX<1> to ssd_controller1/ssd_seg_out_5
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             9   0.821   1.463  inputX_1_IBUF (inputX_1_IBUF)
+     LUT4:I0->O            2   0.551   0.945  Adder4Bit1/Adder2/C_out1 (Adder4Bit1/c_int2)
+     LUT3:I2->O            2   0.551   1.216  Adder4Bit1/Adder3/C_out1 (Adder4Bit1/c_int3)
+     LUT3:I0->O            7   0.551   1.405  Adder4Bit1/Adder4/Mxor_S_Result1 (S<3>)
+     LUT4:I0->O            1   0.551   0.869  Sdecoder/Mrom_Seg_Out41 (SSD_S<4>)
+     LUT3:I2->O            1   0.551   0.000  ssd_controller1/Mmux_ssd_seg_out_mux0000_44 (ssd_controller1/Mmux_ssd_seg_out_mux0000_44)
+     MUXF5:I0->O           1   0.360   0.000  ssd_controller1/Mmux_ssd_seg_out_mux0000_2_f5_3 (ssd_controller1/ssd_seg_out_mux0000<4>)
+     FD:D                      0.203          ssd_controller1/ssd_seg_out_4
+    ----------------------------------------
+    Total                     10.037ns (4.139ns logic, 5.898ns route)
+                                       (41.2% logic, 58.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk_gen1/Clk_mod'
+  Total number of paths / destination ports: 11 / 11
+-------------------------------------------------------------------------
+Offset:              7.165ns (Levels of Logic = 1)
+  Source:            ssd_controller1/ssd_seg_out_6 (FF)
+  Destination:       SSD_out<6> (PAD)
+  Source Clock:      clk_gen1/Clk_mod rising
+
+  Data Path: ssd_controller1/ssd_seg_out_6 to SSD_out<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               1   0.720   0.801  ssd_controller1/ssd_seg_out_6 (ssd_controller1/ssd_seg_out_6)
+     OBUF:I->O                 5.644          SSD_out_6_OBUF (SSD_out<6>)
+    ----------------------------------------
+    Total                      7.165ns (6.364ns logic, 0.801ns route)
+                                       (88.8% logic, 11.2% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 3.00 secs
+Total CPU time to Xst completion: 3.54 secs
+ 
+--> 
+
+Total memory usage is 310352 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    2 (   0 filtered)
+

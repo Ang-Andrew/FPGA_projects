@@ -1,0 +1,11 @@
+# PROMGEN: Xilinx Prom Generator P.20131013
+# Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+SOFTWARE_VERSION P.20131013
+DATE            01/10/2016 - 13:49
+SOURCE          C:\Users\Andrew\Documents\ISE Projects\Decoder\decoder_prom.mcs
+DEVICE          XCF02S
+DATA_WIDTH      8
+FILL_DATA       0xFF
+SIGNATURE       0x01FEC8EE
+START_ADDRESS   0x00000000 END_ADDRESS 0x0001FF87 DIRECTION_UP   "C:/Users/Andrew/Documents/ISE Projects/Decoder/decoder.bit" 3s200ft256

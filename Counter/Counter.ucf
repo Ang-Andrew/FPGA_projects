@@ -1,0 +1,21 @@
+
+#Created by Constraints Editor (xc3s1000-ft256-4) - 2016/02/06
+NET "clk" TNM_NET = "clk";
+TIMESPEC TS_clk = PERIOD "clk" 20 ns HIGH 50 %;
+
+NET "clk" LOC = T9;
+NET "count_out[0]" LOC = K12;
+NET "count_out[1]" LOC = P14;
+NET "count_out[3]" LOC = N14;
+NET "count_out[2]" LOC = L12;
+NET "direction" LOC = F12;
+
+# PlanAhead Generated physical constraints 
+
+NET "Seg_Out[6]" LOC = N16;
+NET "Seg_Out[3]" LOC = P15;
+NET "Seg_Out[2]" LOC = N15;
+NET "Seg_Out[1]" LOC = G13;
+NET "Seg_Out[0]" LOC = E14;
+NET "Seg_Out[4]" LOC = R16;
+NET "Seg_Out[5]" LOC = F13;

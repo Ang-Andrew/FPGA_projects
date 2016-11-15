@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Andrew/Documents/ISE Projects/ssd_multiplex/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Andrew/Documents/ISE Projects/ssd_multiplex/xst"
+elaborate
+-ifn clk_gen.prj
+-ifmt mixed

@@ -1,0 +1,2 @@
+vhdl work "ssd_decoder.vhd"
+vhdl work "Counter.vhd"

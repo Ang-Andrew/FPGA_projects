@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/Andrew/Documents/ISE Projects/ssd_multiplex/ssd_output_tb_isim_beh.exe" -prj "C:/Users/Andrew/Documents/ISE Projects/ssd_multiplex/ssd_output_tb_beh.prj" "work.ssd_output_tb" 

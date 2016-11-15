@@ -1,0 +1,35 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Users/Andrew/Documents/ISE Projects/ssd_multiplex/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> Parameter xsthdpdir set to C:/Users/Andrew/Documents/ISE Projects/ssd_multiplex/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Andrew/Documents/ISE Projects/ssd_multiplex/scale_clock.vhd" in Library work.
+Entity <scale_clk> compiled.
+ERROR:HDLParsers:3292 - "C:/Users/Andrew/Documents/ISE Projects/ssd_multiplex/scale_clock.vhd" Line 47. = has two or more possible definitions in this scope.  For example, parameter 2 (string value) can be: SIGNED or UNSIGNED
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> 
+
+Total memory usage is 265400 kilobytes
+
+Number of errors   :    1 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

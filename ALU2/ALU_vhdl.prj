@@ -1,0 +1,6 @@
+vhdl work "C:\Users\Andrew\Documents\ISE Projects\ALU2\FullAdder.vhd"
+vhdl work "C:\Users\Andrew\Documents\ISE Projects\ALU2\ssd_decoder.vhd"
+vhdl work "C:\Users\Andrew\Documents\ISE Projects\ALU2\SSD_controller.vhd"
+vhdl work "C:\Users\Andrew\Documents\ISE Projects\ALU2\clk_gen.vhd"
+vhdl work "C:\Users\Andrew\Documents\ISE Projects\ALU2\Adder4Bit.vhd"
+vhdl work "C:\Users\Andrew\Documents\ISE Projects\ALU2\ALU.vhd"

@@ -1,0 +1,4 @@
+vhdl work "ssd_decoder.vhd"
+vhdl work "ssd_controller.vhd"
+vhdl work "FullAdder.vhd"
+vhdl work "Adder4Bit.vhd"

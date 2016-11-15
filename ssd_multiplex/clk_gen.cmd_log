@@ -1,0 +1,1 @@
+vhdtdtfi -prj ssd_multiplex -o "C:/Users/Andrew/Documents/ISE Projects/ssd_multiplex/clk_gen.vhi" -module clk_gen -template D:/Programs/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work clk_gen.vhd 

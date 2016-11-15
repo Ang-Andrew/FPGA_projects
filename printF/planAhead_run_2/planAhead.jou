@@ -1,0 +1,46 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Sun Jan 10 22:18:25 2016
+# Process ID: 7492
+# Log file: C:/Users/Andrew/Documents/ISE Projects/printF/planAhead_run_2/planAhead.log
+# Journal file: C:/Users/Andrew/Documents/ISE Projects/printF/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {C:/Users/Andrew/Documents/ISE Projects/printF/pa.fromHdl.tcl}
+update_compile_order -fileset sim_1
+set_property package_pin "" [get_ports [list  {LED[6]}]]
+startgroup
+set_property package_pin E14 [get_ports {LED[0]}]
+endgroup
+startgroup
+set_property package_pin G13 [get_ports {LED[1]}]
+endgroup
+startgroup
+set_property package_pin N15 [get_ports {LED[2]}]
+endgroup
+startgroup
+set_property package_pin N16 [get_ports {LED[6]}]
+endgroup
+startgroup
+set_property package_pin F13 [get_ports {LED[5]}]
+endgroup
+startgroup
+set_property package_pin R16 [get_ports {LED[4]}]
+endgroup
+startgroup
+set_property package_pin P15 [get_ports {LED[3]}]
+endgroup
+startgroup
+set_property package_pin A4 [get_ports {LED[6]}]
+endgroup
+startgroup
+set_property package_pin E14 [get_ports {LED[0]}]
+endgroup
+startgroup
+set_property package_pin F13 [get_ports {LED[5]}]
+endgroup
+startgroup
+set_property package_pin N16 [get_ports {LED[6]}]
+endgroup
+save_constraints

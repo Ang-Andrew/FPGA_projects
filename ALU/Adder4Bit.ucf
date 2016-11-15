@@ -1,0 +1,30 @@
+
+
+#NET "S_4_out[3]" LOC = N14;
+#NET "S_4_out[2]" LOC = L12;
+#NET "S_4_out[1]" LOC = P14;
+#NET "S_4_out[0]" LOC = K12;
+NET "X_4_in[3]" LOC = H13;
+NET "X_4_in[2]" LOC = H14;
+NET "X_4_in[1]" LOC = G12;
+NET "X_4_in[0]" LOC = F12;
+NET "Y_4_in[3]" LOC = K13;
+NET "Y_4_in[2]" LOC = K14;
+NET "Y_4_in[1]" LOC = J13;
+NET "Y_4_in[0]" LOC = J14;
+#NET "C_4_out" LOC = N12;
+
+# PlanAhead Generated physical constraints 
+
+NET "seg_out[6]" LOC = N16;
+NET "seg_out[0]" LOC = E14;
+NET "seg_out[1]" LOC = G13;
+NET "seg_out[2]" LOC = N15;
+NET "seg_out[3]" LOC = P15;
+NET "seg_out[4]" LOC = R16;
+NET "seg_out[5]" LOC = F13;
+NET "ssd_anode_select[3]" LOC = E13;
+NET "ssd_anode_select[2]" LOC = F14;
+NET "ssd_anode_select[1]" LOC = G14;
+NET "ssd_anode_select[0]" LOC = D14;
+NET "clk" LOC = T9;

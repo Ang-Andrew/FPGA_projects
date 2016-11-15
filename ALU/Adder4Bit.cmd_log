@@ -1,0 +1,19 @@
+xst -intstyle ise -ifn "C:/Users/Andrew/Documents/ISE Projects/ALU/Adder4Bit.xst" -ofn "C:/Users/Andrew/Documents/ISE Projects/ALU/Adder4Bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Adder4Bit.ucf -p xc3s1000-ft256-4 "Adder4Bit.ngc" Adder4Bit.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Adder4Bit.ucf -p xc3s1000-ft256-4 "Adder4Bit.ngc" Adder4Bit.ngd  
+map -intstyle ise -p xc3s1000-ft256-4 -cm area -ir off -pr off -c 100 -o Adder4Bit_map.ncd Adder4Bit.ngd Adder4Bit.pcf 
+par -w -intstyle ise -ol high -t 1 Adder4Bit_map.ncd Adder4Bit.ncd Adder4Bit.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Adder4Bit.twx Adder4Bit.ncd -o Adder4Bit.twr Adder4Bit.pcf -ucf Adder4Bit.ucf 
+bitgen -intstyle ise -f Adder4Bit.ut Adder4Bit.ncd 
+xst -intstyle ise -ifn "C:/Users/Andrew/Documents/ISE Projects/ALU/Adder4Bit.xst" -ofn "C:/Users/Andrew/Documents/ISE Projects/ALU/Adder4Bit.syr" 
+xst -intstyle ise -ifn "C:/Users/Andrew/Documents/ISE Projects/ALU/Adder4Bit.xst" -ofn "C:/Users/Andrew/Documents/ISE Projects/ALU/Adder4Bit.syr" 
+xst -intstyle ise -ifn "C:/Users/Andrew/Documents/ISE Projects/ALU/Adder4Bit.xst" -ofn "C:/Users/Andrew/Documents/ISE Projects/ALU/Adder4Bit.syr" 
+xst -intstyle ise -ifn "C:/Users/Andrew/Documents/ISE Projects/ALU/Adder4Bit.xst" -ofn "C:/Users/Andrew/Documents/ISE Projects/ALU/Adder4Bit.syr" 
+xst -intstyle ise -ifn "C:/Users/Andrew/Documents/ISE Projects/ALU/Adder4Bit.xst" -ofn "C:/Users/Andrew/Documents/ISE Projects/ALU/Adder4Bit.syr" 
+xst -intstyle ise -ifn "C:/Users/Andrew/Documents/ISE Projects/ALU/Adder4Bit.xst" -ofn "C:/Users/Andrew/Documents/ISE Projects/ALU/Adder4Bit.syr" 
+xst -intstyle ise -ifn "C:/Users/Andrew/Documents/ISE Projects/ALU/Adder4Bit.xst" -ofn "C:/Users/Andrew/Documents/ISE Projects/ALU/Adder4Bit.syr" 
+xst -intstyle ise -ifn "C:/Users/Andrew/Documents/ISE Projects/ALU/Adder4Bit.xst" -ofn "C:/Users/Andrew/Documents/ISE Projects/ALU/Adder4Bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Adder4Bit.ucf -p xc3s1000-ft256-4 "Adder4Bit.ngc" Adder4Bit.ngd  
+map -intstyle ise -p xc3s1000-ft256-4 -cm area -ir off -pr off -c 100 -o Adder4Bit_map.ncd Adder4Bit.ngd Adder4Bit.pcf 
+par -w -intstyle ise -ol high -t 1 Adder4Bit_map.ncd Adder4Bit.ncd Adder4Bit.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Adder4Bit.twx Adder4Bit.ncd -o Adder4Bit.twr Adder4Bit.pcf -ucf Adder4Bit.ucf 

@@ -1,0 +1,32 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Sat Feb 06 14:24:16 2016
+# Process ID: 2808
+# Log file: C:/Users/Andrew/Documents/ISE Projects/subtractor/planAhead_run_3/planAhead.log
+# Journal file: C:/Users/Andrew/Documents/ISE Projects/subtractor/planAhead_run_3/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {C:/Users/Andrew/Documents/ISE Projects/subtractor/pa.fromHdl.tcl}
+update_compile_order -fileset sim_1
+set_property package_pin "" [get_ports [list  b]]
+set_property package_pin "" [get_ports [list  y]]
+startgroup
+set_property package_pin F12 [get_ports x]
+endgroup
+startgroup
+set_property package_pin F12 [get_ports x]
+endgroup
+startgroup
+set_property package_pin G12 [get_ports y]
+endgroup
+startgroup
+set_property package_pin H14 [get_ports z]
+endgroup
+startgroup
+set_property package_pin K12 [get_ports b]
+endgroup
+startgroup
+set_property package_pin P14 [get_ports d]
+endgroup
+save_constraints

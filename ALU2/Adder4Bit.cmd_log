@@ -1,0 +1,1 @@
+vhdtdtfi -prj ALU2 -o "C:/Users/Andrew/Documents/ISE Projects/ALU2/Adder4Bit.vhi" -module Adder4Bit -template D:/Programs/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work FullAdder.vhd -lib work Adder4Bit.vhd 

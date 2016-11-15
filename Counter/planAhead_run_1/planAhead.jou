@@ -1,0 +1,51 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Sun Oct 30 22:28:43 2016
+# Process ID: 16160
+# Log file: C:/Users/Andrew/Documents/ISE Projects/Counter/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/Andrew/Documents/ISE Projects/Counter/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {C:/Users/Andrew/Documents/ISE Projects/Counter/pa.fromHdl.tcl}
+update_compile_order -fileset sim_1
+set_property package_pin "" [get_ports [list  {Seg_Out[6]}]]
+set_property package_pin "" [get_ports [list  {Seg_Out[5]}]]
+set_property package_pin "" [get_ports [list  {Seg_Out[6]}]]
+set_property package_pin "" [get_ports [list  {Seg_Out[0]}]]
+set_property package_pin "" [get_ports [list  {Seg_Out[4]}]]
+set_property package_pin "" [get_ports [list  {Seg_Out[5]}]]
+startgroup
+set_property package_pin N16 [get_ports {Seg_Out[6]}]
+endgroup
+startgroup
+set_property package_pin F13 [get_ports {Seg_Out[5]}]
+endgroup
+startgroup
+set_property package_pin R16 [get_ports {Seg_Out[4]}]
+endgroup
+startgroup
+set_property package_pin P15 [get_ports {Seg_Out[3]}]
+endgroup
+startgroup
+set_property package_pin N15 [get_ports {Seg_Out[2]}]
+endgroup
+startgroup
+set_property package_pin G14 [get_ports {Seg_Out[1]}]
+endgroup
+startgroup
+set_property package_pin G13 [get_ports {Seg_Out[1]}]
+endgroup
+startgroup
+set_property package_pin E14 [get_ports {Seg_Out[0]}]
+endgroup
+save_constraints
+startgroup
+set_property package_pin E14 [get_ports {Seg_Out[0]}]
+endgroup
+startgroup
+set_property package_pin R16 [get_ports {Seg_Out[4]}]
+endgroup
+set_property is_loc_fixed false [get_ports [list  {Seg_Out[5]}]]
+set_property is_loc_fixed true [get_ports [list  {Seg_Out[5]}]]
+save_constraints

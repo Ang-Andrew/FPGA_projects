@@ -1,0 +1,17 @@
+PROMGEN: Xilinx Prom Generator P.20131013
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+promgen -w -p mcs -c FF -o "C:\Users\Andrew\Documents\ISE Projects\subtractor\//counter_prom" -x xcf04s -u 00000000 "C:/Users/Andrew/Documents/ISE Projects/Counter/counter.bit" 
+
+PROM C:\Users\Andrew\Documents\ISE Projects\subtractor\counter_prom.prm map: Sun Oct 30 23:14:53 2016
+
+Calculating PROM checksum with fill value ff
+
+Format        Mcs86 (32-bit)
+Size          512K
+PROM start    0000:0000
+PROM end      0007:ffff
+PROM checksum 01d8ea3a
+
+        Addr1        Addr2                     Date File(s)
+    0000:0000    0006:25f7     Oct 30 23:13:29 2016 C:/Users/Andrew/Documents/ISE Projects/Counter/counter.bit

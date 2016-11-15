@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Andrew\Documents\ISE Projects\printF\printF.ncd
+OUTFILE=C:\Users\Andrew\Documents\ISE Projects\printF\printF.bit
+FAMILY=Spartan3
+PART=xc3s1000-4ft256
+WORKINGDIR=C:\Users\Andrew\Documents\ISE Projects\printF
+LICENSE=WebPack
+USER_INFO=211136293_0_0_056

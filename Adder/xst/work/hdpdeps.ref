@@ -1,0 +1,8 @@
+V3 3
+FL "C:/Users/Andrew/Documents/ISE Projects/Adder/Adder.vhd" 2016/01/09.12:21:01 P.20131013
+EN work/adder 1452295267 \
+      FL "C:/Users/Andrew/Documents/ISE Projects/Adder/Adder.vhd" \
+      PB ieee/std_logic_arith 1381692177 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/std_logic_1164 1381692176
+AR work/adder/adder_arch 1452295268 \
+      FL "C:/Users/Andrew/Documents/ISE Projects/Adder/Adder.vhd" EN work/adder 1452295267

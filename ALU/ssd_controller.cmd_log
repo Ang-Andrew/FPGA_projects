@@ -1,0 +1,3 @@
+vhdtdtfi -prj ALU -o "C:/Users/Andrew/Documents/ISE Projects/ALU/ssd_controller.vhi" -module ssd_controller -template D:/Programs/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work ssd_decoder.vhd -lib work ssd_controller.vhd 
+vhdtdtfi -prj ALU -o "C:/Users/Andrew/Documents/ISE Projects/ALU/ssd_controller.vhi" -module ssd_controller -template D:/Programs/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work ssd_decoder.vhd -lib work ssd_controller.vhd 
+vhdtdtfi -prj ALU -o "C:/Users/Andrew/Documents/ISE Projects/ALU/ssd_controller.vhi" -module ssd_controller -template D:/Programs/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work ssd_decoder.vhd -lib work ssd_controller.vhd 

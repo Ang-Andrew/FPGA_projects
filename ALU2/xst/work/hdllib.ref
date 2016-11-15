@@ -1,0 +1,12 @@
+AR clk_gen behavioral "C:/Users/Andrew/Documents/ISE Projects/ALU2/clk_gen.vhd" sub00/vhpl07 1479112278
+AR adder4bit behavioral "C:/Users/Andrew/Documents/ISE Projects/ALU2/Adder4Bit.vhd" sub00/vhpl03 1479112274
+EN clk_gen NULL "C:/Users/Andrew/Documents/ISE Projects/ALU2/clk_gen.vhd" sub00/vhpl06 1479112277
+EN ssd_controller NULL "C:/Users/Andrew/Documents/ISE Projects/ALU2/SSD_controller.vhd" sub00/vhpl08 1479112279
+EN fulladder NULL "C:/Users/Andrew/Documents/ISE Projects/ALU2/FullAdder.vhd" sub00/vhpl00 1479112271
+AR ssd_decoder behavioral "C:/Users/Andrew/Documents/ISE Projects/ALU2/ssd_decoder.vhd" sub00/vhpl05 1479112276
+EN ssd_decoder NULL "C:/Users/Andrew/Documents/ISE Projects/ALU2/ssd_decoder.vhd" sub00/vhpl04 1479112275
+AR alu behavioral "C:/Users/Andrew/Documents/ISE Projects/ALU2/ALU.vhd" sub00/vhpl11 1479112282
+EN adder4bit NULL "C:/Users/Andrew/Documents/ISE Projects/ALU2/Adder4Bit.vhd" sub00/vhpl02 1479112273
+AR fulladder behavioral "C:/Users/Andrew/Documents/ISE Projects/ALU2/FullAdder.vhd" sub00/vhpl01 1479112272
+AR ssd_controller behavioral "C:/Users/Andrew/Documents/ISE Projects/ALU2/SSD_controller.vhd" sub00/vhpl09 1479112280
+EN alu NULL "C:/Users/Andrew/Documents/ISE Projects/ALU2/ALU.vhd" sub00/vhpl10 1479112281

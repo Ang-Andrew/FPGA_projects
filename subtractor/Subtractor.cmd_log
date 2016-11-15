@@ -1,0 +1,14 @@
+xst -intstyle ise -ifn "C:/Users/Andrew/Documents/ISE Projects/subtractor/Subtractor.xst" -ofn "C:/Users/Andrew/Documents/ISE Projects/subtractor/Subtractor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Subtractor.ucf -p xc3s1000-ft256-4 "Subtractor.ngc" Subtractor.ngd  
+map -intstyle ise -p xc3s1000-ft256-4 -cm area -ir off -pr off -c 100 -o Subtractor_map.ncd Subtractor.ngd Subtractor.pcf 
+par -w -intstyle ise -ol high -t 1 Subtractor_map.ncd Subtractor.ncd Subtractor.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Subtractor.twx Subtractor.ncd -o Subtractor.twr Subtractor.pcf -ucf Subtractor.ucf 
+bitgen -intstyle ise -f Subtractor.ut Subtractor.ncd 
+bitgen -intstyle ise -f Subtractor.ut Subtractor.ncd 
+xst -intstyle ise -ifn "C:/Users/Andrew/Documents/ISE Projects/subtractor/Subtractor.xst" -ofn "C:/Users/Andrew/Documents/ISE Projects/subtractor/Subtractor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Subtractor.ucf -p xc3s1000-ft256-4 "Subtractor.ngc" Subtractor.ngd  
+map -intstyle ise -p xc3s1000-ft256-4 -cm area -ir off -pr off -c 100 -o Subtractor_map.ncd Subtractor.ngd Subtractor.pcf 
+par -w -intstyle ise -ol high -t 1 Subtractor_map.ncd Subtractor.ncd Subtractor.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Subtractor.twx Subtractor.ncd -o Subtractor.twr Subtractor.pcf -ucf Subtractor.ucf 
+bitgen -intstyle ise -f Subtractor.ut Subtractor.ncd 
+bitgen -intstyle ise -f Subtractor.ut Subtractor.ncd 

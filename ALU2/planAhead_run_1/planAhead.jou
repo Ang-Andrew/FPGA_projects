@@ -1,0 +1,76 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Mon Nov 14 19:50:46 2016
+# Process ID: 1436
+# Log file: C:/Users/Andrew/Documents/ISE Projects/ALU2/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/Andrew/Documents/ISE Projects/ALU2/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {C:/Users/Andrew/Documents/ISE Projects/ALU2/pa.fromHdl.tcl}
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin H13 [get_ports {inputX[3]}]
+endgroup
+startgroup
+set_property package_pin H14 [get_ports {inputX[2]}]
+endgroup
+startgroup
+set_property package_pin G12 [get_ports {inputX[1]}]
+endgroup
+startgroup
+set_property package_pin F12 [get_ports {inputX[0]}]
+endgroup
+startgroup
+set_property package_pin K13 [get_ports {inputY[3]}]
+endgroup
+startgroup
+set_property package_pin K14 [get_ports {inputY[2]}]
+endgroup
+startgroup
+set_property package_pin J13 [get_ports {inputY[1]}]
+endgroup
+startgroup
+set_property package_pin J14 [get_ports {inputY[0]}]
+endgroup
+startgroup
+set_property package_pin E13 [get_ports {SSD_anode[3]}]
+endgroup
+startgroup
+set_property package_pin G14 [get_ports {SSD_anode[2]}]
+endgroup
+startgroup
+set_property package_pin F14 [get_ports {SSD_anode[2]}]
+endgroup
+startgroup
+set_property package_pin G14 [get_ports {SSD_anode[1]}]
+endgroup
+startgroup
+set_property package_pin D14 [get_ports {SSD_anode[0]}]
+endgroup
+startgroup
+set_property package_pin N16 [get_ports {SSD_out[6]}]
+endgroup
+startgroup
+set_property package_pin F13 [get_ports {SSD_out[5]}]
+endgroup
+startgroup
+set_property package_pin R16 [get_ports {SSD_out[4]}]
+endgroup
+startgroup
+set_property package_pin P15 [get_ports {SSD_out[3]}]
+endgroup
+startgroup
+set_property package_pin N15 [get_ports {SSD_out[2]}]
+endgroup
+startgroup
+set_property package_pin G13 [get_ports {SSD_out[1]}]
+endgroup
+startgroup
+set_property package_pin E14 [get_ports {SSD_out[0]}]
+endgroup
+set_property package_pin "" [get_ports [list  C_ALU_in]]
+startgroup
+set_property package_pin T9 [get_ports clk]
+endgroup
+save_constraints

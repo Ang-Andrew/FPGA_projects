@@ -1,0 +1,8 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "C_in" LOC = H14;
+NET "C_out" LOC = P14;
+NET "S" LOC = K12;
+NET "X" LOC = F12;
+NET "Y" LOC = G12;

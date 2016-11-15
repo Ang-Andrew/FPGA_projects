@@ -1,0 +1,13 @@
+Storage Target: Xilinx Flash/PROM
+Storage Family: Platform Flash
+xcf04s          [4 M]
+FF
+ALU2_prom
+C:/Users/Andrew/Documents/ISE Projects/ALU2
+
+MCS
+No
+multiplex
+
+MCS
+No

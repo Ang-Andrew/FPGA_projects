@@ -1,0 +1,11 @@
+# PROMGEN: Xilinx Prom Generator P.20131013
+# Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+SOFTWARE_VERSION P.20131013
+DATE            11/12/2016 - 19:07
+SOURCE          C:\Users\Andrew\Documents\ISE Projects\ALU\Adder4Bit_prom.mcs
+DEVICE          XCF04S
+DATA_WIDTH      8
+FILL_DATA       0xFF
+SIGNATURE       0x01D95A71
+START_ADDRESS   0x00000000 END_ADDRESS 0x000625F7 DIRECTION_UP   "C:/Users/Andrew/Documents/ISE Projects/ALU/adder4bit.bit" 3s1000ft256
