@@ -1,0 +1,9 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "clk50_in" LOC = T9;
+NET "blue_out" LOC = R11;
+NET "green_out" LOC = T12;
+NET "hs_out" LOC = R9;
+NET "vs_out" LOC = T10;
+NET "red_out" LOC = R12;

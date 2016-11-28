@@ -1,0 +1,2 @@
+vhdtdtfi -prj ALU2 -o "C:/Users/Andrew/Documents/ISE Projects/ALU2/MUX.vhi" -module MUX -template D:/Programs/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work MUX.vhd 
+vhdtdtfi -prj ALU2 -o "C:/Users/Andrew/Documents/ISE Projects/ALU2/MUX.vhi" -module MUX -template D:/Programs/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work MUX.vhd 

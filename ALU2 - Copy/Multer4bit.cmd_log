@@ -1,0 +1,1 @@
+vhdtdtfi -prj ALU2 -o "C:/Users/Andrew/Documents/ISE Projects/ALU2/Multer4bit.vhi" -module Multer4bit -template D:/Programs/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work Multer4bit.vhd 

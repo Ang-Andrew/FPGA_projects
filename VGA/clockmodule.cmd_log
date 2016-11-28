@@ -1,0 +1,9 @@
+xst -intstyle ise -ifn "C:/Users/Andrew/Documents/ISE Projects/VGA/clockmodule.xst" -ofn "C:/Users/Andrew/Documents/ISE Projects/VGA/clockmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1000-ft256-4 "clockmodule.ngc" clockmodule.ngd  
+map -intstyle ise -p xc3s1000-ft256-4 -cm area -ir off -pr off -c 100 -o clockmodule_map.ncd clockmodule.ngd clockmodule.pcf 
+par -w -intstyle ise -ol high -t 1 clockmodule_map.ncd clockmodule.ncd clockmodule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml clockmodule.twx clockmodule.ncd -o clockmodule.twr clockmodule.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc clockmodule.ucf -p xc3s1000-ft256-4 "clockmodule.ngc" clockmodule.ngd  
+map -intstyle ise -p xc3s1000-ft256-4 -cm area -ir off -pr off -c 100 -o clockmodule_map.ncd clockmodule.ngd clockmodule.pcf 
+par -w -intstyle ise -ol high -t 1 clockmodule_map.ncd clockmodule.ncd clockmodule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml clockmodule.twx clockmodule.ncd -o clockmodule.twr clockmodule.pcf -ucf clockmodule.ucf 

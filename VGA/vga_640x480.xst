@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Andrew/Documents/ISE Projects/VGA/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Andrew/Documents/ISE Projects/VGA/xst"
+elaborate
+-ifn vga_640x480.prj
+-ifmt mixed

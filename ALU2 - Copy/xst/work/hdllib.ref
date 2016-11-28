@@ -1,0 +1,14 @@
+EN multer4bit NULL "C:/Users/Andrew/Documents/ISE Projects/ALU2 - Copy/Multer4bit.vhd" sub00/vhpl12 1479807517
+AR clk_gen behavioral "C:/Users/Andrew/Documents/ISE Projects/ALU2 - Copy/clk_gen.vhd" sub00/vhpl07 1479807514
+AR adder4bit behavioral "C:/Users/Andrew/Documents/ISE Projects/ALU2 - Copy/Adder4Bit.vhd" sub00/vhpl03 1479807510
+EN clk_gen NULL "C:/Users/Andrew/Documents/ISE Projects/ALU2 - Copy/clk_gen.vhd" sub00/vhpl06 1479807513
+EN ssd_controller NULL "C:/Users/Andrew/Documents/ISE Projects/ALU2 - Copy/SSD_controller.vhd" sub00/vhpl08 1479807515
+EN fulladder NULL "C:/Users/Andrew/Documents/ISE Projects/ALU2 - Copy/FullAdder.vhd" sub00/vhpl00 1479807507
+AR ssd_decoder behavioral "C:/Users/Andrew/Documents/ISE Projects/ALU2 - Copy/ssd_decoder.vhd" sub00/vhpl05 1479807512
+EN ssd_decoder NULL "C:/Users/Andrew/Documents/ISE Projects/ALU2 - Copy/ssd_decoder.vhd" sub00/vhpl04 1479807511
+AR alu behavioral "C:/Users/Andrew/Documents/ISE Projects/ALU2 - Copy/ALU.vhd" sub00/vhpl11 1479807520
+EN adder4bit NULL "C:/Users/Andrew/Documents/ISE Projects/ALU2 - Copy/Adder4Bit.vhd" sub00/vhpl02 1479807509
+AR multer4bit behavioral "C:/Users/Andrew/Documents/ISE Projects/ALU2 - Copy/Multer4bit.vhd" sub00/vhpl13 1479807518
+AR fulladder behavioral "C:/Users/Andrew/Documents/ISE Projects/ALU2 - Copy/FullAdder.vhd" sub00/vhpl01 1479807508
+AR ssd_controller behavioral "C:/Users/Andrew/Documents/ISE Projects/ALU2 - Copy/SSD_controller.vhd" sub00/vhpl09 1479807516
+EN alu NULL "C:/Users/Andrew/Documents/ISE Projects/ALU2 - Copy/ALU.vhd" sub00/vhpl10 1479807519

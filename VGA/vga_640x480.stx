@@ -1,0 +1,39 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Users/Andrew/Documents/ISE Projects/VGA/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> Parameter xsthdpdir set to C:/Users/Andrew/Documents/ISE Projects/VGA/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Andrew/Documents/ISE Projects/VGA/vga_640x480.vhd" in Library work.
+Entity <vga_640x480> compiled.
+ERROR:HDLParsers:808 - "C:/Users/Andrew/Documents/ISE Projects/VGA/vga_640x480.vhd" Line 33. - can not have such operands in this context.
+ERROR:HDLParsers:808 - "C:/Users/Andrew/Documents/ISE Projects/VGA/vga_640x480.vhd" Line 37. + can not have such operands in this context.
+ERROR:HDLParsers:808 - "C:/Users/Andrew/Documents/ISE Projects/VGA/vga_640x480.vhd" Line 42. < can not have such operands in this context.
+ERROR:HDLParsers:808 - "C:/Users/Andrew/Documents/ISE Projects/VGA/vga_640x480.vhd" Line 48. = can not have such operands in this context.
+ERROR:HDLParsers:808 - "C:/Users/Andrew/Documents/ISE Projects/VGA/vga_640x480.vhd" Line 49. - can not have such operands in this context.
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> 
+
+Total memory usage is 265388 kilobytes
+
+Number of errors   :    5 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

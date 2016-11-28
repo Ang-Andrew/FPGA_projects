@@ -1,0 +1,34 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Mon Nov 28 13:47:53 2016
+# Process ID: 10364
+# Log file: C:/Users/Andrew/Documents/ISE Projects/VGA/planAhead_run_2/planAhead.log
+# Journal file: C:/Users/Andrew/Documents/ISE Projects/VGA/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {C:/Users/Andrew/Documents/ISE Projects/VGA/pa.fromHdl.tcl}
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin T9 [get_ports clk50_in]
+endgroup
+startgroup
+set_property package_pin R11 [get_ports blue_out]
+endgroup
+startgroup
+set_property package_pin T12 [get_ports green_out]
+endgroup
+startgroup
+set_property package_pin R9 [get_ports hs_out]
+endgroup
+startgroup
+set_property package_pin R12 [get_ports red_out]
+endgroup
+startgroup
+set_property package_pin T10 [get_ports vs_out]
+endgroup
+save_constraints
+startgroup
+set_property package_pin R12 [get_ports red_out]
+endgroup
+save_constraints

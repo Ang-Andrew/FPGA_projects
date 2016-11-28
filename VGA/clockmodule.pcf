@@ -1,0 +1,14 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Mon Nov 28 13:49:53 2016
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "blue_out" LOCATE = SITE "R11" LEVEL 1;
+COMP "red_out" LOCATE = SITE "R12" LEVEL 1;
+COMP "green_out" LOCATE = SITE "T12" LEVEL 1;
+COMP "vs_out" LOCATE = SITE "T10" LEVEL 1;
+COMP "hs_out" LOCATE = SITE "R9" LEVEL 1;
+COMP "clk50_in" LOCATE = SITE "T9" LEVEL 1;
+NET "clk50_in_BUFGP/IBUFG" BEL "clk50_in_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

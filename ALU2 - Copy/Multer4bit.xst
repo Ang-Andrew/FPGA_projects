@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Andrew/Documents/ISE Projects/ALU2/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Andrew/Documents/ISE Projects/ALU2/xst"
+elaborate
+-ifn Multer4bit.prj
+-ifmt mixed
