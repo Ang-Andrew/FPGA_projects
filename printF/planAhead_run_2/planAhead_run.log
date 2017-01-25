@@ -1,0 +1,85 @@
+
+****** PlanAhead v14.7 (64-bit)
+  **** Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+    ** Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from D:/Programs/ISE/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [D:/Programs/ISE/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [D:/Programs/ISE/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source {C:/Users/Andrew/Documents/ISE Projects/printF/pa.fromHdl.tcl}
+# create_project -name printF -dir "C:/Users/Andrew/Documents/ISE Projects/printF/planAhead_run_2" -part xc3s1000ft256-4
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "printF.ucf" [current_fileset -constrset]
+Adding file 'C:/Users/Andrew/Documents/ISE Projects/printF/printF.ucf' to fileset 'constrs_1'
+# set hdlfile [add_files [list {printF.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set_property top printF $srcset
+# add_files [list {printF.ucf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc3s1000ft256-4
+Using Verific elaboration
+Parsing VHDL file "D:/Programs/ISE/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Parsing VHDL file "D:/Programs/ISE/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Parsing VHDL file "C:/Users/Andrew/Documents/ISE Projects/printF/printF.vhd" into library work
+INFO: [Designutils 20-910] Reading macro library D:/Programs/ISE/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3/hd_int_macros.edn
+Parsing EDIF File [D:/Programs/ISE/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3/hd_int_macros.edn]
+Finished Parsing EDIF File [D:/Programs/ISE/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3/hd_int_macros.edn]
+Loading clock regions from D:/Programs/ISE/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3/spartan3/xc3s1000/ClockRegion.xml
+Loading clock buffers from D:/Programs/ISE/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3/spartan3/xc3s1000/ClockBuffers.xml
+Loading package from D:/Programs/ISE/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3/spartan3/xc3s1000/ft256/Package.xml
+Loading io standards from D:/Programs/ISE/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3/IOStandards.xml
+INFO: [Device 21-19] Loading pkg sso from D:/Programs/ISE/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3/spartan3/xc3s1000/ft256/SSORules.xml
+Loading list of drcs for the architecture : D:/Programs/ISE/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3/drc.xml
+INFO: [Timing 38-77] Reading timing library D:/Programs/ISE/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3/spartan3/spartan3-4.lib.
+INFO: [Timing 38-34] Done reading timing library D:/Programs/ISE/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3/spartan3/spartan3-4.lib.
+Parsing UCF File [C:/Users/Andrew/Documents/ISE Projects/printF/printF.ucf]
+Finished Parsing UCF File [C:/Users/Andrew/Documents/ISE Projects/printF/printF.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: 84dc206a
+open_rtl_design: Time (s): elapsed = 00:00:06 . Memory (MB): peak = 576.109 ; gain = 109.051
+update_compile_order -fileset sim_1
+set_property package_pin "" [get_ports [list  {LED[6]}]]
+startgroup
+set_property package_pin E14 [get_ports {LED[0]}]
+endgroup
+startgroup
+set_property package_pin G13 [get_ports {LED[1]}]
+endgroup
+startgroup
+set_property package_pin N15 [get_ports {LED[2]}]
+endgroup
+startgroup
+set_property package_pin N16 [get_ports {LED[6]}]
+endgroup
+startgroup
+set_property package_pin F13 [get_ports {LED[5]}]
+endgroup
+startgroup
+set_property package_pin R16 [get_ports {LED[4]}]
+endgroup
+startgroup
+set_property package_pin P15 [get_ports {LED[3]}]
+endgroup
+startgroup
+set_property package_pin A4 [get_ports {LED[6]}]
+endgroup
+startgroup
+set_property package_pin E14 [get_ports {LED[0]}]
+endgroup
+startgroup
+set_property package_pin F13 [get_ports {LED[5]}]
+endgroup
+startgroup
+set_property package_pin N16 [get_ports {LED[6]}]
+endgroup
+save_constraints
+exit
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Sun Jan 10 22:21:45 2016...
+INFO: [Common 17-83] Releasing license: PlanAhead

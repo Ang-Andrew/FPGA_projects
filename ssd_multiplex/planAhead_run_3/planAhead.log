@@ -1,0 +1,48 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Mon Nov 14 12:25:45 2016
+# Process ID: 11036
+# Log file: C:/Users/Andrew/Documents/ISE Projects/ssd_multiplex/planAhead_run_3/planAhead.log
+# Journal file: C:/Users/Andrew/Documents/ISE Projects/ssd_multiplex/planAhead_run_3/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from D:/Programs/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [D:/Programs/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [D:/Programs/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source {C:/Users/Andrew/Documents/ISE Projects/ssd_multiplex/pa.fromHdl.tcl}
+# create_project -name ssd_multiplex -dir "C:/Users/Andrew/Documents/ISE Projects/ssd_multiplex/planAhead_run_3" -part xc3s1000ft256-4
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "ssd_output.ucf" [current_fileset -constrset]
+Adding file 'C:/Users/Andrew/Documents/ISE Projects/ssd_multiplex/ssd_output.ucf' to fileset 'constrs_1'
+# set hdlfile [add_files [list {ssd_output.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set_property top ssd_output $srcset
+# add_files [list {ssd_output.ucf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc3s1000ft256-4
+Using Verific elaboration
+Parsing VHDL file "D:/Programs/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Parsing VHDL file "D:/Programs/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Parsing VHDL file "C:/Users/Andrew/Documents/ISE Projects/ssd_multiplex/ssd_output.vhd" into library work
+INFO: [Designutils 20-910] Reading macro library D:/Programs/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3/hd_int_macros.edn
+Parsing EDIF File [D:/Programs/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3/hd_int_macros.edn]
+Finished Parsing EDIF File [D:/Programs/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3/hd_int_macros.edn]
+Loading clock regions from D:/Programs/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3/spartan3/xc3s1000/ClockRegion.xml
+Loading clock buffers from D:/Programs/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3/spartan3/xc3s1000/ClockBuffers.xml
+Loading package from D:/Programs/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3/spartan3/xc3s1000/ft256/Package.xml
+Loading io standards from D:/Programs/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3/IOStandards.xml
+INFO: [Device 21-19] Loading pkg sso from D:/Programs/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3/spartan3/xc3s1000/ft256/SSORules.xml
+Loading list of drcs for the architecture : D:/Programs/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3/drc.xml
+INFO: [Timing 38-77] Reading timing library D:/Programs/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3/spartan3/spartan3-4.lib.
+INFO: [Timing 38-34] Done reading timing library D:/Programs/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3/spartan3/spartan3-4.lib.
+Parsing UCF File [C:/Users/Andrew/Documents/ISE Projects/ssd_multiplex/ssd_output.ucf]
+Finished Parsing UCF File [C:/Users/Andrew/Documents/ISE Projects/ssd_multiplex/ssd_output.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: 47ab7b58
+update_compile_order -fileset sim_1

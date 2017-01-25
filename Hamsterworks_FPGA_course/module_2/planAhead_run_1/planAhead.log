@@ -1,0 +1,74 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Wed Jan 25 22:32:38 2017
+# Process ID: 9168
+# Log file: C:/Users/Andrew/Documents/ISE Projects/Hamsterworks_FPGA_course/module_2/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/Andrew/Documents/ISE Projects/Hamsterworks_FPGA_course/module_2/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Common 17-86] Your PlanAhead license expires in 6 day(s)
+INFO: [Device 21-36] Loading parts and site information from D:/Programs/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [D:/Programs/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [D:/Programs/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source {C:/Users/Andrew/Documents/ISE Projects/Hamsterworks_FPGA_course/module_2/pa.fromHdl.tcl}
+# create_project -name module_2 -dir "C:/Users/Andrew/Documents/ISE Projects/Hamsterworks_FPGA_course/module_2/planAhead_run_1" -part xc6slx16csg324-2
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "Switches_LEDs.ucf" [current_fileset -constrset]
+Adding file 'C:/Users/Andrew/Documents/ISE Projects/Hamsterworks_FPGA_course/module_2/Switches_LEDs.ucf' to fileset 'constrs_1'
+# set hdlfile [add_files [list {Switches_LEDs.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set_property top Switches_LEDs $srcset
+# add_files [list {Switches_LEDs.ucf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc6slx16csg324-2
+Using Verific elaboration
+Parsing VHDL file "D:/Programs/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Parsing VHDL file "D:/Programs/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Parsing VHDL file "C:/Users/Andrew/Documents/ISE Projects/Hamsterworks_FPGA_course/module_2/Switches_LEDs.vhd" into library work
+Loading clock regions from D:/Programs/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx16/ClockRegion.xml
+Loading clock buffers from D:/Programs/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx16/ClockBuffers.xml
+Loading package pin functions from D:/Programs/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/PinFunctions.xml...
+Loading package from D:/Programs/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx16/csg324/Package.xml
+Loading io standards from D:/Programs/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/IOStandards.xml
+Loading device configuration modes from D:/Programs/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/ConfigModes.xml
+Loading list of drcs for the architecture : D:/Programs/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/drc.xml
+Parsing UCF File [C:/Users/Andrew/Documents/ISE Projects/Hamsterworks_FPGA_course/module_2/Switches_LEDs.ucf]
+Finished Parsing UCF File [C:/Users/Andrew/Documents/ISE Projects/Hamsterworks_FPGA_course/module_2/Switches_LEDs.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: 7c080621
+open_rtl_design: Time (s): elapsed = 00:00:08 . Memory (MB): peak = 640.781 ; gain = 182.422
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin E13 [get_ports LED_0]
+endgroup
+set_property is_loc_fixed false [get_ports [list  LED_0]]
+startgroup
+set_property package_pin E13 [get_ports LED_0]
+endgroup
+set_property package_pin "" [get_ports [list  switch_0]]
+startgroup
+set_property package_pin C14 [get_ports LED_1]
+endgroup
+startgroup
+set_property package_pin D14 [get_ports switch_0]
+endgroup
+startgroup
+set_property package_pin E12 [get_ports switch_1]
+endgroup
+save_constraints
+exit
+ERROR: [PlanAhead 12-106] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
+HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
+HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
+ (See C:/Users/Andrew/Documents/ISE Projects/Hamsterworks_FPGA_course/module_2\planAhead_pid9168.debug)
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Wed Jan 25 22:34:40 2017...
+INFO: [Common 17-83] Releasing license: PlanAhead

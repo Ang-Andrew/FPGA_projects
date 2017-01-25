@@ -1,0 +1,96 @@
+iMPACT Version: Oct 13 2013 10:22:21
+
+iMPACT log file Started on Sat Feb 06 15:08:25 2016
+
+Preference Table
+Name                 Setting             
+StartupClock         Auto_Correction     
+AutoSignature        False               
+KeepSVF              False               
+ConcurrentMode       False               
+UseHighz             False               
+ConfigOnFailure      Stop                
+UserLevel            Novice              
+MessageLevel         Detailed            
+svfUseTime           false               
+SpiByteSwap          Auto_Correction     
+AutoInfer            false               
+SvfPlayDisplayComments false               
+Enumerating cables. Please wait.
+ Cable is LOCKED. Retrying...
+Connecting to cable (Usb Port - USB21).
+Checking cable driver.
+ Driver file xusb21.sys found.
+ File D:/Programs/ISE/14.7/ISE_DS/ISE/bin/nt64/xusb21.sys not found.
+ Driver file xusb22.sys found.
+ File D:/Programs/ISE/14.7/ISE_DS/ISE/bin/nt64/xusb22.sys not found.
+ Driver file xusb_emb.sys found.
+ Driver version: src=1029, dest=1029.
+ Driver windrvr6.sys version = 10.2.1.0. WinDriver v10.21 Jungo (c) 1997 - 2010 Build Date: Aug 31 2010 x86_64 64bit SYS14:14:44, version = 1021.
+=======================================================
+Found cable - >  ESN device is not available for this cable.
+No ESN.
+=======================================================
+ Cable is LOCKED. Retrying...
+Connecting to cable (Usb Port - USB22).
+Checking cable driver.
+ Driver file xusb21.sys found.
+ File D:/Programs/ISE/14.7/ISE_DS/ISE/bin/nt64/xusb21.sys not found.
+ Driver file xusb22.sys found.
+ File D:/Programs/ISE/14.7/ISE_DS/ISE/bin/nt64/xusb22.sys not found.
+ Driver file xusb_emb.sys found.
+ Driver version: src=1029, dest=1029.
+ Driver windrvr6.sys version = 10.2.1.0. WinDriver v10.21 Jungo (c) 1997 - 2010 Build Date: Aug 31 2010 x86_64 64bit SYS14:14:44, version = 1021.
+ERROR:iMPACT - Cable not found, ESN: 00000000000000
+'1': Loading file 'subtractor.bit' ...
+done.
+INFO:iMPACT:1777 - 
+   Reading D:/Programs/ISE/14.7/ISE_DS/ISE/spartan3/data/xc3s1000.bsd...
+UserID read from the bitstream file = 0xFFFFFFFF.
+INFO:iMPACT:501 - '1': Added Device xc3s1000 successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+'1': Loading file 'subtractor.bit' ...
+INFO:iMPACT - Elapsed time =      0 sec.
+done.
+INFO:iMPACT:2257 - Startup Clock has been changed to 'Cclk' in the bitstream   stored in memory,
+   but the original bitstream file remains unchanged.
+Dumping bit file subtractor_cclktemp.bit...
+INFO:iMPACT:501 - '1': Added Device xc3s1000 successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+'1': Added Device xcf04s successfully.
+----------------------------------------------------------------------
+Active mode is BS
+ERROR:iMPACT - This function requires that a target is opened first.
+INFO:iMPACT - Digilent Plugin: Plugin Version: 2.4.4
+INFO:iMPACT - Digilent Plugin: no JTAG device was found.
+AutoDetecting cable. Please wait.
+*** WARNING ***: When port is set to auto detect mode, cable speed is set todefault 6 MHz regardless of explicit arguments supplied for setting the baudrates
+ Cable is LOCKED. Retrying...
+Connecting to cable (Usb Port - USB21).
+Checking cable driver.
+ Driver file xusb21.sys found.
+ File D:/Programs/ISE/14.7/ISE_DS/ISE/bin/nt64/xusb21.sys not found.
+ Driver file xusb22.sys found.
+ File D:/Programs/ISE/14.7/ISE_DS/ISE/bin/nt64/xusb22.sys not found.
+ Driver file xusb_emb.sys found.
+ Driver version: src=1029, dest=1029.
+ Driver windrvr6.sys version = 10.2.1.0. WinDriver v10.21 Jungo (c) 1997 - 2010 Build Date: Aug 31 2010 x86_64 64bit SYS14:14:44, version = 1021.
+ Cable PID = 0008.
+ Max current requested during enumeration is 74 mA.
+Type = 0x0004.
+ Cable Type = 3, Revision = 0.
+ Setting cable speed to 6 MHz.
+Cable connection established.
+Firmware version = 1303.
+File version of D:/Programs/ISE/14.7/ISE_DS/ISE/data/xusb_xlp.hex = 1303.
+Firmware hex file version = 1303.
+PLD file version = 0012h.
+ PLD version = 0012h.
+Type = 0x0004.
+ ESN device is not available for this cable.
+INFO:iMPACT:583 - '1': The idcode read from the device does not match the idcode   in the bsdl File.
+INFO:iMPACT:1578 - '1':  Device IDCODE :        00000010100001010000000100100110
+INFO:iMPACT:1579 - '1': Expected IDCODE:    00000001010000101000000010010011
+Elapsed time =      0 sec.

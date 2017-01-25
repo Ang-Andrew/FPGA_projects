@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Andrew\Documents\ISE Projects\Hamsterworks_FPGA_course\module3\Switches_LEDs.ncd
+OUTFILE=C:\Users\Andrew\Documents\ISE Projects\Hamsterworks_FPGA_course\module3\Switches_LEDs.bit
+FAMILY=Spartan6
+PART=xc6slx16-2csg324
+WORKINGDIR=C:\Users\Andrew\Documents\ISE Projects\Hamsterworks_FPGA_course\module3
+LICENSE=WebPack
+USER_INFO=211136293_0_0_056

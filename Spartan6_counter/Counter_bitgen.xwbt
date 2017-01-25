@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Andrew\Documents\ISE Projects\Spartan6_counter\Counter.ncd
+OUTFILE=C:\Users\Andrew\Documents\ISE Projects\Spartan6_counter\Counter.bit
+FAMILY=Spartan6
+PART=xc6slx16-2csg324
+WORKINGDIR=C:\Users\Andrew\Documents\ISE Projects\Spartan6_counter
+LICENSE=WebPack
+USER_INFO=211136293_0_0_056

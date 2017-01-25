@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2016-11-28T13:50:04</DateModified>
+  <DateModified>2017-01-22T14:15:15</DateModified>
   <ModuleName>clockmodule</ModuleName>
   <SummaryTimeStamp>2016-11-28T13:50:02</SummaryTimeStamp>
   <SavedFilePath>C:/Users/Andrew/Documents/ISE Projects/VGA/iseconfig/clockmodule.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/Andrew/Documents/ISE Projects/VGA</ImplementationReportsDirectory>
+  <ImplementationReportsDirectory>C:/Users/Andrew/Documents/ISE Projects/VGA\</ImplementationReportsDirectory>
   <DateInitialized>2016-11-28T13:49:44</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
