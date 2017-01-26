@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Andrew\Documents\ISE Projects\Hamsterworks_FPGA_course\module_4\module_4.ncd
+OUTFILE=C:\Users\Andrew\Documents\ISE Projects\Hamsterworks_FPGA_course\module_4\module_4.bit
+FAMILY=Spartan3
+PART=xc3s1000-5ft256
+WORKINGDIR=C:\Users\Andrew\Documents\ISE Projects\Hamsterworks_FPGA_course\module_4
+LICENSE=WebPack
+USER_INFO=211136293_0_0_056

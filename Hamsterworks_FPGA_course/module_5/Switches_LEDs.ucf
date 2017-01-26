@@ -1,0 +1,19 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "LEDs[7]" LOC = P11;
+NET "LEDs[6]" LOC = P12;
+NET "LEDs[5]" LOC = N12;
+NET "LEDs[4]" LOC = P13;
+NET "LEDs[3]" LOC = N14;
+NET "LEDs[2]" LOC = L12;
+NET "LEDs[1]" LOC = P14;
+NET "LEDs[0]" LOC = K12;
+NET "switches[7]" LOC = K13;
+NET "switches[6]" LOC = K14;
+NET "switches[5]" LOC = J13;
+NET "switches[4]" LOC = J14;
+NET "switches[3]" LOC = H13;
+NET "switches[2]" LOC = H14;
+NET "switches[1]" LOC = G12;
+NET "switches[0]" LOC = F12;

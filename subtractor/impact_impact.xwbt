@@ -1,8 +1,8 @@
 INTSTYLE=impact
 INFILE=C:\Users\Andrew\Documents\ISE Projects\subtractor\impact.xsl
 OUTFILE=C:\Users\Andrew\Documents\ISE Projects\subtractor\impact.xsl
-FAMILY=Single
-PART=Single
+FAMILY=Multiple
+PART=Multiple
 WORKINGDIR=C:\Users\Andrew\Documents\ISE Projects\subtractor
 LICENSE=iMPACT
 USER_INFO=iMPACT

@@ -77,6 +77,7 @@
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
     <transform xil_pn:end_ts="1485337816" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1485337816">
       <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
     </transform>
     <transform xil_pn:end_ts="1485337816" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="1381457403241859218" xil_pn:start_ts="1485337816">
       <status xil_pn:value="SuccessfullyRun"/>
@@ -164,6 +165,7 @@
     <transform xil_pn:end_ts="1485337922" xil_pn:in_ck="2426825442795633972" xil_pn:name="TRANEXT_bitFile_spartan6" xil_pn:prop_ck="396117104113915555" xil_pn:start_ts="1485337914">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
       <outfile xil_pn:name="Switches_LEDs.ut"/>
       <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
       <outfile xil_pn:name="switches_leds.bgn"/>
@@ -176,6 +178,7 @@
     <transform xil_pn:end_ts="1485337926" xil_pn:in_ck="9143504318309733246" xil_pn:name="TRAN_configureTargetDevice" xil_pn:prop_ck="8482462020707587906" xil_pn:start_ts="1485337924">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
     </transform>
     <transform xil_pn:end_ts="1485337911" xil_pn:in_ck="-2882762477548984655" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416184" xil_pn:start_ts="1485337908">
       <status xil_pn:value="SuccessfullyRun"/>

@@ -1,0 +1,20 @@
+xst -intstyle ise -ifn "C:/Users/Andrew/Documents/ISE Projects/Hamsterworks_FPGA_course/module_4/module_4.xst" -ofn "C:/Users/Andrew/Documents/ISE Projects/Hamsterworks_FPGA_course/module_4/module_4.syr" 
+xst -intstyle ise -ifn "C:/Users/Andrew/Documents/ISE Projects/Hamsterworks_FPGA_course/module_4/module_4.xst" -ofn "C:/Users/Andrew/Documents/ISE Projects/Hamsterworks_FPGA_course/module_4/module_4.syr" 
+xst -intstyle ise -ifn "C:/Users/Andrew/Documents/ISE Projects/Hamsterworks_FPGA_course/module_4/module_4.xst" -ofn "C:/Users/Andrew/Documents/ISE Projects/Hamsterworks_FPGA_course/module_4/module_4.syr" 
+xst -intstyle ise -ifn "C:/Users/Andrew/Documents/ISE Projects/Hamsterworks_FPGA_course/module_4/module_4.xst" -ofn "C:/Users/Andrew/Documents/ISE Projects/Hamsterworks_FPGA_course/module_4/module_4.syr" 
+xst -intstyle ise -ifn "C:/Users/Andrew/Documents/ISE Projects/Hamsterworks_FPGA_course/module_4/module_4.xst" -ofn "C:/Users/Andrew/Documents/ISE Projects/Hamsterworks_FPGA_course/module_4/module_4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc module_4.ucf -p xc3s1000-ft256-5 "module_4.ngc" module_4.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o module_4_map.ncd module_4.ngd module_4.pcf 
+par -w -intstyle ise -ol high -t 1 module_4_map.ncd module_4.ncd module_4.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml module_4.twx module_4.ncd -o module_4.twr module_4.pcf -ucf module_4.ucf 
+bitgen -intstyle ise -f module_4.ut module_4.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc module_4.ucf -p xc3s1000-ft256-5 "module_4.ngc" module_4.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o module_4_map.ncd module_4.ngd module_4.pcf 
+par -w -intstyle ise -ol high -t 1 module_4_map.ncd module_4.ncd module_4.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml module_4.twx module_4.ncd -o module_4.twr module_4.pcf -ucf module_4.ucf 
+bitgen -intstyle ise -f module_4.ut module_4.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc module_4.ucf -p xc3s1000-ft256-5 "module_4.ngc" module_4.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o module_4_map.ncd module_4.ngd module_4.pcf 
+par -w -intstyle ise -ol high -t 1 module_4_map.ncd module_4.ncd module_4.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml module_4.twx module_4.ncd -o module_4.twr module_4.pcf -ucf module_4.ucf 
+bitgen -intstyle ise -f module_4.ut module_4.ncd 

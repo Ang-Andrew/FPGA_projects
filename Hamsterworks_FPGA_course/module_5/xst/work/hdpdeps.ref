@@ -1,0 +1,8 @@
+V3 3
+FL "C:/Users/Andrew/Documents/ISE Projects/Hamsterworks_FPGA_course/module_5/Switches_LEDs.vhd" 2017/01/26.22:41:53 P.20131013
+EN work/Switches_LEDs 1485423720 \
+      FL "C:/Users/Andrew/Documents/ISE Projects/Hamsterworks_FPGA_course/module_5/Switches_LEDs.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/Switches_LEDs/Behavioral 1485423721 \
+      FL "C:/Users/Andrew/Documents/ISE Projects/Hamsterworks_FPGA_course/module_5/Switches_LEDs.vhd" \
+      EN work/Switches_LEDs 1485423720

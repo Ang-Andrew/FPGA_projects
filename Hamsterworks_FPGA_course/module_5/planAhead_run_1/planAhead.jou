@@ -1,0 +1,92 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Thu Jan 26 22:42:20 2017
+# Process ID: 4644
+# Log file: C:/Users/Andrew/Documents/ISE Projects/Hamsterworks_FPGA_course/module_5/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/Andrew/Documents/ISE Projects/Hamsterworks_FPGA_course/module_5/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {C:/Users/Andrew/Documents/ISE Projects/Hamsterworks_FPGA_course/module_5/pa.fromHdl.tcl}
+update_compile_order -fileset sim_1
+set_property package_pin "" [get_ports [list  {LEDs[7]}]]
+startgroup
+set_property package_pin P11 [get_ports {LEDs[7]}]
+endgroup
+startgroup
+set_property package_pin P11 [get_ports {LEDs[7]}]
+endgroup
+startgroup
+set_property package_pin P11 [get_ports {LEDs[7]}]
+endgroup
+startgroup
+set_property package_pin P12 [get_ports {LEDs[6]}]
+endgroup
+startgroup
+set_property package_pin N12 [get_ports {LEDs[5]}]
+endgroup
+startgroup
+set_property package_pin P13 [get_ports {LEDs[4]}]
+endgroup
+startgroup
+set_property package_pin N14 [get_ports {LEDs[3]}]
+endgroup
+startgroup
+set_property package_pin L12 [get_ports {LEDs[2]}]
+endgroup
+startgroup
+set_property package_pin P14 [get_ports {LEDs[1]}]
+endgroup
+startgroup
+set_property package_pin K12 [get_ports {LEDs[0]}]
+endgroup
+set_property package_pin "" [get_ports [list  {switches[6]}]]
+startgroup
+set_property package_pin K13 [get_ports {switches[7]}]
+endgroup
+startgroup
+set_property package_pin K14 [get_ports {switches[7]}]
+endgroup
+startgroup
+set_property package_pin J13 [get_ports {switches[6]}]
+endgroup
+startgroup
+set_property package_pin J14 [get_ports {switches[5]}]
+endgroup
+startgroup
+set_property package_pin H13 [get_ports {switches[4]}]
+endgroup
+startgroup
+set_property package_pin H14 [get_ports {switches[3]}]
+endgroup
+startgroup
+set_property package_pin G12 [get_ports {switches[2]}]
+endgroup
+startgroup
+set_property package_pin F12 [get_ports {switches[1]}]
+endgroup
+startgroup
+set_property package_pin K13 [get_ports {switches[7]}]
+endgroup
+startgroup
+set_property package_pin K14 [get_ports {switches[6]}]
+endgroup
+startgroup
+set_property package_pin J13 [get_ports {switches[5]}]
+endgroup
+startgroup
+set_property package_pin J14 [get_ports {switches[4]}]
+endgroup
+startgroup
+set_property package_pin H13 [get_ports {switches[3]}]
+endgroup
+startgroup
+set_property package_pin H14 [get_ports {switches[2]}]
+endgroup
+startgroup
+set_property package_pin G12 [get_ports {switches[1]}]
+endgroup
+startgroup
+set_property package_pin F12 [get_ports {switches[0]}]
+endgroup
+save_constraints

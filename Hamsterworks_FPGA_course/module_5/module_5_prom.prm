@@ -1,0 +1,17 @@
+PROMGEN: Xilinx Prom Generator P.20131013
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+promgen -w -p mcs -c FF -o "C:\Users\Andrew\Documents\ISE Projects\Hamsterworks_FPGA_course\module_5//module_5_prom" -x xcf04s -u 00000000 "C:/Users/Andrew/Documents/ISE Projects/Hamsterworks_FPGA_course/module_5/switches_leds.bit" 
+
+PROM C:\Users\Andrew\Documents\ISE Projects\Hamsterworks_FPGA_course\module_5\module_5_prom.prm map: Thu Jan 26 22:47:10 2017
+
+Calculating PROM checksum with fill value ff
+
+Format        Mcs86 (32-bit)
+Size          512K
+PROM start    0000:0000
+PROM end      0007:ffff
+PROM checksum 01d88e19
+
+        Addr1        Addr2                     Date File(s)
+    0000:0000    0006:25f7     Jan 26 22:45:41 2017 C:/Users/Andrew/Documents/ISE Projects/Hamsterworks_FPGA_course/module_5/switches_leds.bit
