@@ -1,0 +1,42 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Mon Jan 30 21:59:05 2017
+# Process ID: 12256
+# Log file: C:/Users/Andrew/Documents/ISE Projects/Hamsterworks_FPGA_course/module_6/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/Andrew/Documents/ISE Projects/Hamsterworks_FPGA_course/module_6/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {C:/Users/Andrew/Documents/ISE Projects/Hamsterworks_FPGA_course/module_6/pa.fromHdl.tcl}
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin P11 [get_ports {LEDs[7]}]
+endgroup
+startgroup
+set_property package_pin P12 [get_ports {LEDs[6]}]
+endgroup
+startgroup
+set_property package_pin N12 [get_ports {LEDs[5]}]
+endgroup
+startgroup
+set_property package_pin P13 [get_ports {LEDs[4]}]
+endgroup
+startgroup
+set_property package_pin N14 [get_ports {LEDs[3]}]
+endgroup
+startgroup
+set_property package_pin L12 [get_ports {LEDs[2]}]
+endgroup
+startgroup
+set_property package_pin P14 [get_ports {LEDs[1]}]
+endgroup
+startgroup
+set_property package_pin K12 [get_ports {LEDs[0]}]
+endgroup
+startgroup
+set_property package_pin T9 [get_ports clk]
+endgroup
+startgroup
+set_property package_pin F12 [get_ports switches]
+endgroup
+save_constraints

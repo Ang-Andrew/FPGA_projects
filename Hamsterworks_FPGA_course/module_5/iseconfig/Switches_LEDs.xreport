@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2017-01-26T22:27:54</DateModified>
+  <DateModified>2017-01-30T21:40:33</DateModified>
   <ModuleName>Switches_LEDs</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
   <SavedFilePath>C:/Users/Andrew/Documents/ISE Projects/Hamsterworks_FPGA_course/module_5/iseconfig/Switches_LEDs.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/Andrew/Documents/ISE Projects/Hamsterworks_FPGA_course/module_5</ImplementationReportsDirectory>
+  <ImplementationReportsDirectory>C:/Users/Andrew/Documents/ISE Projects/Hamsterworks_FPGA_course/module_5\</ImplementationReportsDirectory>
   <DateInitialized>2017-01-26T22:27:54</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

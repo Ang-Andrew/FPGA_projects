@@ -2,8 +2,8 @@ Storage Target: Xilinx Flash/PROM
 Storage Family: Platform Flash
 xcf04s          [4 M]
 FF
-module_5_prom
-C:/Users/Andrew/Documents/ISE Projects/Hamsterworks_FPGA_course/module_5
+module_6_8_bit_counter_sec_prom
+C:/Users/Andrew/Documents/ISE Projects/Hamsterworks_FPGA_course/module_6
 
 MCS
 No
