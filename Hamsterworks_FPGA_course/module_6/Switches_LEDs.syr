@@ -68,7 +68,7 @@ Automatic Register Balancing       : No
 
 ---- Target Options
 Add IO Buffers                     : YES
-Global Maximum Fanout              : 500
+Global Maximum Fanout              : 100000
 Add Generic Clock Buffer(BUFG)     : 8
 Register Duplication               : YES
 Slice Packing                      : YES
@@ -215,8 +215,8 @@ Cell Usage :
 #      VCC                         : 1
 #      XORCY                       : 38
 # FlipFlops/Latches                : 38
-#      FD                          : 30
 #      FDE                         : 8
+#      FDR                         : 30
 # Clock Buffers                    : 1
 #      BUFGP                       : 1
 # IO Buffers                       : 9
@@ -268,7 +268,7 @@ Timing Summary:
 ---------------
 Speed Grade: -5
 
-   Minimum period: 4.971ns (Maximum Frequency: 201.149MHz)
+   Minimum period: 5.655ns (Maximum Frequency: 176.825MHz)
    Minimum input arrival time before clock: 6.054ns
    Maximum output required time after clock: 6.280ns
    Maximum combinational path delay: No path found
@@ -279,55 +279,33 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'clk'
-  Clock period: 4.971ns (frequency: 201.149MHz)
-  Total number of paths / destination ports: 1204 / 46
+  Clock period: 5.655ns (frequency: 176.825MHz)
+  Total number of paths / destination ports: 2104 / 76
 -------------------------------------------------------------------------
-Delay:               4.971ns (Levels of Logic = 31)
-  Source:            counter_0 (FF)
-  Destination:       counter_29 (FF)
+Delay:               5.655ns (Levels of Logic = 9)
+  Source:            counter_7 (FF)
+  Destination:       counter_0 (FF)
   Source Clock:      clk rising
   Destination Clock: clk rising
 
-  Data Path: counter_0 to counter_29
+  Data Path: counter_7 to counter_0
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FD:C->Q               2   0.626   0.915  counter_0 (counter_0)
-     LUT2:I1->O            1   0.479   0.000  Mcount_counter_lut<0> (Mcount_counter_lut<0>)
-     MUXCY:S->O            1   0.435   0.000  Mcount_counter_cy<0> (Mcount_counter_cy<0>)
-     MUXCY:CI->O           1   0.056   0.000  Mcount_counter_cy<1> (Mcount_counter_cy<1>)
-     MUXCY:CI->O           1   0.056   0.000  Mcount_counter_cy<2> (Mcount_counter_cy<2>)
-     MUXCY:CI->O           1   0.056   0.000  Mcount_counter_cy<3> (Mcount_counter_cy<3>)
-     MUXCY:CI->O           1   0.056   0.000  Mcount_counter_cy<4> (Mcount_counter_cy<4>)
-     MUXCY:CI->O           1   0.056   0.000  Mcount_counter_cy<5> (Mcount_counter_cy<5>)
-     MUXCY:CI->O           1   0.056   0.000  Mcount_counter_cy<6> (Mcount_counter_cy<6>)
-     MUXCY:CI->O           1   0.056   0.000  Mcount_counter_cy<7> (Mcount_counter_cy<7>)
-     MUXCY:CI->O           1   0.056   0.000  Mcount_counter_cy<8> (Mcount_counter_cy<8>)
-     MUXCY:CI->O           1   0.056   0.000  Mcount_counter_cy<9> (Mcount_counter_cy<9>)
-     MUXCY:CI->O           1   0.055   0.000  Mcount_counter_cy<10> (Mcount_counter_cy<10>)
-     MUXCY:CI->O           1   0.056   0.000  Mcount_counter_cy<11> (Mcount_counter_cy<11>)
-     MUXCY:CI->O           1   0.056   0.000  Mcount_counter_cy<12> (Mcount_counter_cy<12>)
-     MUXCY:CI->O           1   0.056   0.000  Mcount_counter_cy<13> (Mcount_counter_cy<13>)
-     MUXCY:CI->O           1   0.056   0.000  Mcount_counter_cy<14> (Mcount_counter_cy<14>)
-     MUXCY:CI->O           1   0.056   0.000  Mcount_counter_cy<15> (Mcount_counter_cy<15>)
-     MUXCY:CI->O           1   0.056   0.000  Mcount_counter_cy<16> (Mcount_counter_cy<16>)
-     MUXCY:CI->O           1   0.056   0.000  Mcount_counter_cy<17> (Mcount_counter_cy<17>)
-     MUXCY:CI->O           1   0.056   0.000  Mcount_counter_cy<18> (Mcount_counter_cy<18>)
-     MUXCY:CI->O           1   0.056   0.000  Mcount_counter_cy<19> (Mcount_counter_cy<19>)
-     MUXCY:CI->O           1   0.056   0.000  Mcount_counter_cy<20> (Mcount_counter_cy<20>)
-     MUXCY:CI->O           1   0.056   0.000  Mcount_counter_cy<21> (Mcount_counter_cy<21>)
-     MUXCY:CI->O           1   0.056   0.000  Mcount_counter_cy<22> (Mcount_counter_cy<22>)
-     MUXCY:CI->O           1   0.056   0.000  Mcount_counter_cy<23> (Mcount_counter_cy<23>)
-     MUXCY:CI->O           1   0.056   0.000  Mcount_counter_cy<24> (Mcount_counter_cy<24>)
-     MUXCY:CI->O           1   0.056   0.000  Mcount_counter_cy<25> (Mcount_counter_cy<25>)
-     MUXCY:CI->O           1   0.056   0.000  Mcount_counter_cy<26> (Mcount_counter_cy<26>)
-     MUXCY:CI->O           1   0.056   0.000  Mcount_counter_cy<27> (Mcount_counter_cy<27>)
-     MUXCY:CI->O           0   0.056   0.000  Mcount_counter_cy<28> (Mcount_counter_cy<28>)
-     XORCY:CI->O           1   0.786   0.000  Mcount_counter_xor<29> (Result<29>)
-     FD:D                      0.176          counter_29
+     FDR:C->Q              2   0.626   1.040  counter_7 (counter_7)
+     LUT2:I0->O            1   0.479   0.000  sec_count_cmp_eq0000_wg_lut<0> (sec_count_cmp_eq0000_wg_lut<0>)
+     MUXCY:S->O            1   0.435   0.000  sec_count_cmp_eq0000_wg_cy<0> (sec_count_cmp_eq0000_wg_cy<0>)
+     MUXCY:CI->O           1   0.056   0.000  sec_count_cmp_eq0000_wg_cy<1> (sec_count_cmp_eq0000_wg_cy<1>)
+     MUXCY:CI->O           1   0.056   0.000  sec_count_cmp_eq0000_wg_cy<2> (sec_count_cmp_eq0000_wg_cy<2>)
+     MUXCY:CI->O           1   0.056   0.000  sec_count_cmp_eq0000_wg_cy<3> (sec_count_cmp_eq0000_wg_cy<3>)
+     MUXCY:CI->O           1   0.056   0.000  sec_count_cmp_eq0000_wg_cy<4> (sec_count_cmp_eq0000_wg_cy<4>)
+     MUXCY:CI->O           1   0.056   0.000  sec_count_cmp_eq0000_wg_cy<5> (sec_count_cmp_eq0000_wg_cy<5>)
+     MUXCY:CI->O           1   0.056   0.000  sec_count_cmp_eq0000_wg_cy<6> (sec_count_cmp_eq0000_wg_cy<6>)
+     MUXCY:CI->O          38   0.246   1.604  sec_count_cmp_eq0000_wg_cy<7> (sec_count_cmp_eq0000)
+     FDR:R                     0.892          counter_0
     ----------------------------------------
-    Total                      4.971ns (4.056ns logic, 0.915ns route)
-                                       (81.6% logic, 18.4% route)
+    Total                      5.655ns (3.011ns logic, 2.645ns route)
+                                       (53.2% logic, 46.8% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
@@ -374,7 +352,7 @@ Offset:              6.054ns (Levels of Logic = 32)
      MUXCY:CI->O           1   0.056   0.000  Mcount_counter_cy<27> (Mcount_counter_cy<27>)
      MUXCY:CI->O           0   0.056   0.000  Mcount_counter_cy<28> (Mcount_counter_cy<28>)
      XORCY:CI->O           1   0.786   0.000  Mcount_counter_xor<29> (Result<29>)
-     FD:D                      0.176          counter_29
+     FDR:D                     0.176          counter_29
     ----------------------------------------
     Total                      6.054ns (4.145ns logic, 1.909ns route)
                                        (68.5% logic, 31.5% route)
@@ -401,12 +379,12 @@ Offset:              6.280ns (Levels of Logic = 1)
 =========================================================================
 
 
-Total REAL time to Xst completion: 3.00 secs
-Total CPU time to Xst completion: 3.32 secs
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 3.91 secs
  
 --> 
 
-Total memory usage is 294260 kilobytes
+Total memory usage is 294240 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)

@@ -23,11 +23,13 @@ clk_proc: process(clk)
 			counter <= counter-1;
 			if counter = "10111110101111000001111111" then
 				sec_count <= sec_count-1;
+				counter <= (others => '0');
 			end if;
 		else
 			counter <= counter+1;
 			if counter = "10111110101111000001111111" then
 				sec_count <= sec_count+1;
+				counter <= (others => '0');
 			end if;
       end if;
      end if;

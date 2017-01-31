@@ -9,7 +9,7 @@ Target Device  : xc3s1000
 Target Package : ft256
 Target Speed   : -5
 Mapper Version : spartan3 -- $Revision: 1.55 $
-Mapped Date    : Mon Jan 30 22:35:35 2017
+Mapped Date    : Tue Jan 31 22:08:58 2017
 
 Mapping design into LUTs...
 Running directed packing...
@@ -35,10 +35,10 @@ Logic Distribution:
   Number of bonded IOBs:                 10 out of     173    5%
   Number of BUFGMUXs:                     1 out of       8   12%
 
-Average Fanout of Non-Clock Nets:                2.40
+Average Fanout of Non-Clock Nets:                2.90
 
-Peak Memory Usage:  332 MB
-Total REAL time to MAP completion:  6 secs 
+Peak Memory Usage:  333 MB
+Total REAL time to MAP completion:  1 secs 
 Total CPU time to MAP completion:   0 secs 
 
 NOTES:

@@ -79,6 +79,7 @@
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
     <transform xil_pn:end_ts="1485766333" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1485766333">
       <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
     </transform>
     <transform xil_pn:end_ts="1485766333" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="8014867159831183116" xil_pn:start_ts="1485766333">
       <status xil_pn:value="SuccessfullyRun"/>
@@ -104,12 +105,10 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1485768927" xil_pn:in_ck="-7911026983309424450" xil_pn:name="TRANEXT_xstsynthesize_spartan3" xil_pn:prop_ck="3154025937375446994" xil_pn:start_ts="1485768922">
+    <transform xil_pn:end_ts="1485853724" xil_pn:in_ck="-7911026983309424450" xil_pn:name="TRANEXT_xstsynthesize_spartan3" xil_pn:prop_ck="4857337102663014430" xil_pn:start_ts="1485853718">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="Switches_LEDs.lso"/>
       <outfile xil_pn:name="Switches_LEDs.ngc"/>
@@ -128,20 +127,18 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1485768934" xil_pn:in_ck="6948993033277906324" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-8174558554086683396" xil_pn:start_ts="1485768931">
+    <transform xil_pn:end_ts="1485853736" xil_pn:in_ck="6948993033277906324" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-8174558554086683396" xil_pn:start_ts="1485853731">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="Switches_LEDs.bld"/>
       <outfile xil_pn:name="Switches_LEDs.ngd"/>
       <outfile xil_pn:name="Switches_LEDs_ngdbuild.xrpt"/>
       <outfile xil_pn:name="_ngo"/>
       <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
     </transform>
-    <transform xil_pn:end_ts="1485768943" xil_pn:in_ck="-8606402666500210763" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="1502724157172790344" xil_pn:start_ts="1485768934">
+    <transform xil_pn:end_ts="1485853741" xil_pn:in_ck="-8606402666500210763" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="1502724157172790344" xil_pn:start_ts="1485853736">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="Switches_LEDs.pcf"/>
@@ -154,10 +151,9 @@
       <outfile xil_pn:name="Switches_LEDs_usage.xml"/>
       <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
     </transform>
-    <transform xil_pn:end_ts="1485768950" xil_pn:in_ck="1567775276302894062" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="5592077876867041805" xil_pn:start_ts="1485768943">
+    <transform xil_pn:end_ts="1485853751" xil_pn:in_ck="1567775276302894062" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="5592077876867041805" xil_pn:start_ts="1485853741">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="Switches_LEDs.ncd"/>
       <outfile xil_pn:name="Switches_LEDs.pad"/>
       <outfile xil_pn:name="Switches_LEDs.par"/>
@@ -169,10 +165,9 @@
       <outfile xil_pn:name="Switches_LEDs_par.xrpt"/>
       <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
     </transform>
-    <transform xil_pn:end_ts="1485768960" xil_pn:in_ck="2426825442795633972" xil_pn:name="TRANEXT_bitFile_spartan3" xil_pn:prop_ck="4026351017656627060" xil_pn:start_ts="1485768953">
+    <transform xil_pn:end_ts="1485853758" xil_pn:in_ck="2426825442795633972" xil_pn:name="TRANEXT_bitFile_spartan3" xil_pn:prop_ck="-2672950586390118423" xil_pn:start_ts="1485853752">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="Switches_LEDs.ut"/>
       <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
       <outfile xil_pn:name="switches_leds.bgn"/>
@@ -182,15 +177,17 @@
       <outfile xil_pn:name="webtalk.log"/>
       <outfile xil_pn:name="webtalk_pn.xml"/>
     </transform>
-    <transform xil_pn:end_ts="1485768962" xil_pn:in_ck="9143504318309733246" xil_pn:name="TRAN_genImpactFile" xil_pn:prop_ck="-7052584534157616599" xil_pn:start_ts="1485768961">
+    <transform xil_pn:end_ts="1485853765" xil_pn:in_ck="9143504318309733246" xil_pn:name="TRAN_configureTargetDevice" xil_pn:prop_ck="-6745644827150672321" xil_pn:start_ts="1485853763">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
     </transform>
-    <transform xil_pn:end_ts="1485768950" xil_pn:in_ck="-2882762477548984655" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416187" xil_pn:start_ts="1485768948">
+    <transform xil_pn:end_ts="1485853768" xil_pn:in_ck="9143504318309733246" xil_pn:name="TRAN_genImpactFile" xil_pn:prop_ck="-7052584534157616599" xil_pn:start_ts="1485853766">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
+    </transform>
+    <transform xil_pn:end_ts="1485853751" xil_pn:in_ck="-2882762477548984655" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416187" xil_pn:start_ts="1485853748">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="Switches_LEDs.twr"/>
       <outfile xil_pn:name="Switches_LEDs.twx"/>
       <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
